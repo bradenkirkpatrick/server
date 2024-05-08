@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Webpage Counter</title>
+    <script>
+        // Initialize the counter variable
+        var counter = 0;
+
+        // Function to increment the counter and update the display
+        function incrementCounter() {
+            counter++;
+            document.getElementById("counterDisplay").innerHTML = counter;
+        }
+    </script>
+</head>
+<body>
+    <h1>Webpage Counter</h1>
+    <p>Counter: <span id="counterDisplay">0</span></p>
+    <button onclick="incrementCounter()">Increment</button>
+</body>
+</html>
