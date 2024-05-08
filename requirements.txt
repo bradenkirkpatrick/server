@@ -1,2 +1,5 @@
 flask
 pytest
+discord
+python-dotenv
+redis
